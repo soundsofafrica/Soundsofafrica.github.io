@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: prometo;
+  src: url( "../font/prometo/Prometo-Italic.woff");
+}
+
+.Banner-content{
+	padding: 0 140px;
+}
+
+  .line {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+/*   margin: 10px 0 20px; */
+} 
+
+.line span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+
+.nav-link{
+	color: white!important
+}
+.cat-active{
+	border-bottom: 1px solid white;
+}
+.logotxt{
+	font-family: prometo;
+	position: absolute;
+	top: -3px;
+	margin-top: 22px; 
+	color: black; 
+	font-size: 22px; 
+	font-weight: 800
+}
+.sameline img{
+	cursor: pointer;
+}
+.nav1{
+	background-color: white;
+	color: Black
+}
+.Bbtn{
+	margin-top: -80px;
+	max-width: 150px;
+	padding: 2px
+	
+}
+.nav2{
+	
+	z-index: 9999; 
+	margin-top: 66px
+}
+ .nav2,.btn-green1{
+	background-color: #6fb300;
+}
+/*
+.navbar-nav i{
+	color:black;
+}
+*/
+.dark-grey-text{
+	text-align: left;
+}
+a{
+	color:black
+
+}
+.grey-text a{
+	color:grey;
+}
+.grey-text a:hover{
+	color:#9932CC
+}
+
+.search-form-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px 205px;
+  margin-top: 55px;
+/*  background: url(/resources/images/misc/bg_search-open.png) right center no-repeat #f89d1c;*/
+}
+
+.search-form-wrapper.open {
+  display: block;
+}
+.searchbar1{
+	background-color: #9932CC;
+	color: white;
+	padding: 11px;
+	
+	
+}
+
+
+
+.catmargin{
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 800px){
+	.logotxt{
+	 
+	font-size: 24px; 
+	font-weight: 800;
+	top: -1px;
+}
+
+	
+	.search-form-wrapper {
+
+  padding: 10px 45px;
+		 margin-top: 5px;
+
+}
+	.logo{
+		margin-left: 40px
+	}
+	.catmargin{
+	margin-top: 80px;
+}
+	
+
+}
+
+
+
+
+@media screen and (min-width: 800px){
+	.search-form-wrapper {
+		position: fixed
+	}
+}
+@media screen and (min-width: 915px){
+	
+	.menu1{
+		margin-left: -30px;
+	}
+	.Banner{
+		padding-left: 118px;
+		padding-right: 118px
+	}
+	.sameline{
+		padding-left: 70px;
+		padding-right: 70px
+	}
+	.sameline1{
+		padding-left: 55px;
+		padding-right: 55px
+	}
+	.sameline3{
+		padding-left: 60px;
+		padding-right: 60px
+	}
+	.navbar-nav i{
+	font-size: 20px;
+}
+	.nav2{
+	
+	z-index: 9999; 
+	margin-top: 66px
+}
+}
+
+@media screen and (max-width: 915px){
+
+	.nav2{
+		margin-top: 0px;
+		
+	
+/*	display: hidden;*/
+/*		background-color: #9932CC*/
+}
+		.Banner-content{
+	padding: 0 50px;
+}
+	
+	.menu1{
+		margin-top: 70px;
+	}
+	.p-remove{
+		padding: 0
+	}
+}
+
+@media screen and (min-width: 1170px){
+	.shift{
+		padding-left: 43px
+	}
+	.shift2{
+		padding-left: 45px;
+	}
+	.search-form-wrapper {
+  
+  padding: 30px 405px;
+ 
+}
+	.intro1{
+		padding: 0px 100px 0px 120px ;
+		margin-top: 100px
+	}
+/*
+	.logo{
+		margin-left: 164px
+	}
+	.s-icons{
+		margin-right: 164px;
+	}
+*/
+	
+}
+@media screen and (max-width: 500px){
+	.hide-fb{
+		display: none
+	}
+	.sbar{
+		margin-left: 10px
+	}
+	.jarallax{
+		min-height: 400px!important;
+	}
+	
+		.catmargin{
+	margin-top: 50px;
+}
+}

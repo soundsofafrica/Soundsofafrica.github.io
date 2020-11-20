@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Prometo ';
+    src: local('Prometo  Italic'), local('Prometo--Italic'),
+        url('Prometo-Italic.woff2') format('woff2'),
+        url('Prometo-Italic.woff') format('woff'),
+        url('Prometo-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
